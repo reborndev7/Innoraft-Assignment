@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 2</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".Header").click(function(){
+                $(".panel").slideToggle("slow");
+            });
+        });
+    </script>
+    <style>
+        .Header{
+            padding: 5px;
+            background-color: #E5EECC;
+            text-align: center;
+            border: 1px solid gray;
+        }
+        .panel{
+            padding: 50px;
+            text-align: center;
+            border: 1px solid gray;
+            background-color: #DFEDFF;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Header">
+        Click me to slide down panel
+    </div>
+    <div class="panel"> Hello World! </div>
+
+</body>
+</html>

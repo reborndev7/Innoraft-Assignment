@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 1</title>
+</head>
+<style>
+    .redbox{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    }
+    button{
+        margin: 30px auto;
+    }
+</style>
+<body>
+    <div class="redbox"></div>
+    <button>Click me</button>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".redbox").hide()
+            });
+        });
+    </script>
+</body>
+</html>
