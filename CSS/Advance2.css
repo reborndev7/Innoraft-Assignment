@@ -1,0 +1,616 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.Header{
+    background-color: white;
+    width: 100%;
+    top:0;
+    left:0;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+.HeaderMax{
+    max-width: 1600px;
+    padding: 40px;
+    margin: auto;
+    position: relative;
+}
+.image{
+    position: absolute;
+    top:5px;
+    z-index: 10; 
+}
+.Header ul{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+.Header li{
+    display: inline;
+    font-size: small;
+}
+.Header li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 10px;
+}
+.Header li .active, .Header li a:hover{
+    background-color: rgb(231, 230, 228);
+}
+
+.DropdownHead{
+    position: relative;
+    display: inline-block;
+}
+.darrow{
+    position: absolute;
+    top:3px;
+    width: 5px;
+    height: 8px;
+    right: 0;
+}
+.Blog{
+    padding: 10px;
+}
+.mail{
+    position: absolute;
+    top: -15px;
+    right:-65px;
+}
+.Dropdown-content{
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: -70px;
+    min-width: 160px;
+    padding: 10px;
+    text-align: center;
+    
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.DropdownHead:hover .Dropdown-content{
+    display: block;
+}
+.First{
+    text-align: center;
+    padding: 250px;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.Firstback{
+    background-color: rgba(2, 24, 59, 0.7);
+
+}
+.First h1{
+    font-weight: 100;
+    font-size: 60px;
+}
+.First span{
+    font-weight: 700;
+}
+button{
+    font-size: 0.7em;
+    font-weight: 700;
+}
+.FirstCover{
+    background: url("/img/img-1.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    width: 100%;
+    margin: 0 auto;
+}
+.First button{
+    background-color: rgba(2, 24, 59, 0.7) ;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 20px 30px;
+    color: white;
+    margin: 0 10px;
+}
+.First button:hover{
+    background-color: rgb(226, 197, 30);
+}
+.Firstback img{
+    position: sticky;
+    left: 49%;
+    bottom: 0px;
+    height: 10px;
+    width: 15px;
+    transition: 100ms;
+    opacity: 50%;
+}
+.Firstback img:hover{
+    width: 30px;
+    height: 20px;
+    left: 48%
+}
+.SecondCover{
+    width: 100%;
+    background: #dde4f0;
+   
+}
+.Second{
+    padding: 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+.Second h1{
+    font-weight: 100px;
+}
+.Second span{
+    font-weight: 700;
+}
+.Second p{
+    margin: 50px 60% 50px 0;
+}
+.Secondpic{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top:50px;
+    right: 50px;
+}
+.Second li{
+    list-style: none;
+    padding: 10px 0;
+}
+.Second li img{
+    /* position:absolute; */
+    width: 30px;
+    height: 30px;
+}
+.ThirdCover{
+    background: url("/img/img-2.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    width: 100%;
+    margin: 0 auto;
+}
+.Thirdback{
+    background-color: rgba(2, 24, 59, 0.7);
+    width: 100%;
+}
+.Third{
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.Third h1{
+    font-weight: 100;
+    max-width: 500px;
+    margin: 50px auto;
+}
+.Third span{
+    font-weight: 700;
+}
+.Third .icons{
+    display: flex;
+}
+.Third .icons div{
+    margin: 30px;
+}
+.Third img{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(2, 24, 59, 0.3);
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.Third button{
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 25px;
+    color: white;
+    background-color:rgba(2, 24, 59, 0.3);
+}
+.Third button:hover{
+    background-color: rgb(226, 197, 30);
+}
+.Third img{
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+}
+.Third img:hover{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+.FourthCover{
+    background: #dde4f0;
+    width: 100%;
+}
+.Fourth{
+    max-width: 1600px;
+    margin: 0 auto;
+    
+    padding: 30px 0;
+}
+.Fourth h1{
+    width: 40%;
+    padding: 60px 0px 30px 60px;
+}
+.Fourth p{
+    padding: 0 0 50px 60px;
+    font-weight: 200;
+}
+.Fourth span{
+    font-weight: 700;
+}
+.Fourth ul{
+    margin-left: 30px;
+}
+.Fourth li{
+    display: inline;
+    font-size: small;
+    margin: 0;
+}
+.Fourth li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 10px;
+    margin: 0;
+}
+.Fourth li .active, .Fourth li a:hover{
+    background-color: rgb(187, 191, 199);
+}
+.Fourth .gallery{
+    margin: 50px;
+    display: flex;
+}
+.gallery>div{
+    display: inline-block;
+}
+.gallery .left, .mid, .right{
+    width: 33%;
+    margin: 10px;
+}
+.gallery .left>img,.gallery .mid>img,.gallery .right>img{
+    margin: 20px 0;
+}
+.Fourth .ProCover{
+    margin: 20px 0;
+    background: url("/img/2-min.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.Fourth .ProCover1{
+    margin: 20px 0;
+    background: url("/img/12-min.jpg") no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+.Pro{
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    background-color: rgba(2, 24, 59, 0.7);
+    height: 90%;
+    width: 90%;
+    top:5%;
+    left: 5%;
+    transition: 1s;
+}
+.Pro:hover{
+    opacity: 1;
+}
+.Pro .Text{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+.Pro>button{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 196, 0);
+    border-radius: 80px;
+    /* padding:10px; */
+    color: white;
+    font-size: 20px;
+    font-weight: 50;
+}
+.FifthCover{
+    background: url("/img/img-4.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    width: 100%;
+}
+.Fifthback{
+    background-color: rgba(2, 24, 59, 0.7);
+    width: 100%;
+}
+.Fifth{
+    text-align: center;
+    padding: 50px; 
+    color: white;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.Fifth img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+    background-color: rgba(83, 100, 128, 0.424);
+    border-radius: 60px;
+    padding: 20px;
+    transition: 500ms;
+}
+.Fifth a{
+    text-decoration: none;
+    color:white;
+}
+.Fifth a:hover{
+    color: rgb(255, 196, 0);
+}
+.Fifth img:hover{
+    width: 100px;
+    height: 100px;
+}
+.Fifth div{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    font-weight: 100;
+    display: inline-block;
+}
+.Fifth span{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.SixthCover{
+    width: 100%;
+    background: #dde4f0;
+}
+.Sixth{
+    max-width: 1600px;
+    margin:auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.Sixth .Cards{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px;
+    padding: auto;
+    max-width: 1600px;
+}
+.Cards div{
+    margin: 0 30px;
+    box-shadow: 3px 3px 3px gray;
+    padding: 50px;
+    font-family:'Open Sans', sans-serif;
+    background: white;
+    border-radius: 5px;
+}
+.Sixth ul{
+    padding: 0;
+}
+.Sixth li{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+.Cards h2, .Cards span{
+    font-weight: bolder;
+}
+.Sixth span{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.Trial li:nth-child(n+3), .Regular li:nth-child(4){
+    color: grey;
+}
+.Sixth button{
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: white;
+    box-shadow: 3px 3px gray;
+}
+.Sixth button:hover{
+    background-color: rgb(255, 196, 0);
+    border: 3px solid rgb(255, 196, 0);
+    color: white;
+}
+.SeventhCover{
+    background: url("/img/img-3.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    
+    position: relative;
+}
+.Seventhback{
+    background-color: rgba(2, 24, 59, 0.7);
+    width: 100%;
+}
+.Seventh{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.Seventh img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.Seventh .Test{
+    display: flex;
+    text-align: center;
+    margin: 50px;
+}
+.Seventh .Test p{
+    margin: 30px;
+}
+.Seventh h1{
+    font-weight: 700;
+}
+.Seventh Span{
+    font-weight: 100;
+}
+.Seventh .arrows{
+    position: absolute;
+    right: 10%;
+    top: 100px;
+}
+.Seventh .arrows img{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 0;
+    transition: 100ms;
+}
+.l{
+    transform:rotate(90deg);
+    background-color: rgb(2, 24, 59);
+    margin: 0;
+}
+.r{
+    transform: rotate(-90deg);
+    background-color: rgb(255, 196, 0);
+    margin: 0;
+}
+.Seventh .arrows img:hover{
+    width: 25px;
+    height: 25px;
+}
+.EightCover{
+    width: 100%;
+    background: #dde4f0;
+}
+.Eight{
+    max-width: 1600px;
+    margin:auto;
+    padding: 50px 0;
+    
+}
+.Eight .Blogs{
+    display: flex;
+    align-items: stretch;
+    margin: 30px;
+    padding: auto;
+    max-width: 1600px;
+}
+.Eight .Text{
+    padding-left: 60px;
+}
+.Blogs>div{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin: 0 30px;
+    box-shadow: 3px 3px 3px gray;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.Blogs img{
+    width: 100%;
+    height: 300px;
+}
+.Blogs .xt{
+    padding:30px;
+}
+.Eight button{
+    margin: 40px auto;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: white;
+    box-shadow: 3px 3px gray;
+}
+.Eight button:hover{
+    background-color: rgb(255, 196, 0);
+    border: 3px solid rgb(255, 196, 0);
+    color: white;
+}
+.FooterCover{
+    background: #3A376C;
+    width: 100%;
+}
+.Footer{  
+    color: white;   
+    max-width: 1600px;
+    margin: auto;
+}
+.Footer .info{
+    display: flex;
+    flex-direction: row;
+}
+.Footer .Image{
+    margin-left: 60px;
+}
+.Footer table{
+    /* float: left; */
+    margin: 60px;
+    width: 60%;
+    text-align: left;
+    transform: translate("Uppercase");
+}
+.Footer th{
+    padding-bottom: 20px;
+}
+.Footer td{
+    margin: 10px;
+    font-size: small;
+    text-transform: uppercase;
+}
+.Footer a{
+    text-decoration: none;
+    color: white;
+}
+.Footer .news{
+    /* float: left; */
+    margin: 30px auto;
+    position: relative;
+    /* margin: 50px auto 5% 10%; */
+}
+.news>h3{
+    padding: 20px;
+}
+
+.news .a1{
+    color: gray;
+    padding: 10px 80% 10px 20px;
+    border-radius: 30px;
+    background: white url(/img/messsage.jpg) right no-repeat;
+    background-size: 20%;
+}
+.Footer .foot{
+    padding: 10px;
+    clear: both;
+    text-transform: uppercase;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.201);
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: small;
+}
